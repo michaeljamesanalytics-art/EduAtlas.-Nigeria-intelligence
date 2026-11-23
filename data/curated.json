@@ -1,0 +1,630 @@
+{
+  "project": "EduAtlas Nigeria",
+  "reviewed": "2026-11-23",
+  "disclaimer": "Research starter edition. The entries are curated examples, not exhaustive national coverage. Officials and programme status can change after the review date.",
+  "updates": [
+    {
+      "id": "edtech-launch",
+      "date": "2026-11-17",
+      "topic": "Digital learning",
+      "agency": "FME",
+      "headline": "National EdTech Strategy unveiled, AskFME chatbot launched",
+      "summary": "The government unveiled its education technology strategy and AI-powered AskFME chatbot, alongside a review of Nigeria Education Data Infrastructure. Launch is not evidence of nationwide adoption or learning impact.",
+      "status": "Official announcement",
+      "impact": "Watch teacher training, access, implementation funding and evaluation.",
+      "url": "https://fmino.gov.ng/fg-unveils-national-edtech-strategy-launches-askfme-ai-chatbot-advances-unified-education-data-system/"
+    },
+    {
+      "id": "budget-q2",
+      "date": "2026-11-07",
+      "topic": "Public finance",
+      "agency": "Budget Office",
+      "headline": "Q2 2026 federal budget implementation report published",
+      "summary": "The Budget Office published its second-quarter implementation report. Education-sector figures must be extracted from relevant budget lines before claiming amounts released or utilized.",
+      "status": "Report published",
+      "impact": "Compare approved education allocations against actual releases and spending.",
+      "url": "https://budgetoffice.gov.ng/index.php/second-quarter-2026-budget-implementation-report"
+    },
+    {
+      "id": "certificate-digital",
+      "date": "2026-09-08",
+      "topic": "Governance",
+      "agency": "FME",
+      "headline": "Ministry announces automated academic certificate verification",
+      "summary": "The ministry announced automation of certificate evaluation and authentication processes. Verify user access, coverage and processing performance separately.",
+      "status": "Official announcement",
+      "impact": "Watch turnaround times, error rates and accessibility.",
+      "url": "https://education.gov.ng/fg-automates-academic-certificate-verification-eliminates-physical-visits-to-education-ministry/"
+    },
+    {
+      "id": "nuc-blueprint",
+      "date": "2026-07-07",
+      "topic": "Tertiary education",
+      "agency": "NUC",
+      "headline": "NUC receives Blueprint 2.0 reform framework for universities",
+      "summary": "The National Universities Commission received a policy committee's Blueprint 2.0 document on university reform. Publication or presentation does not itself establish implemented reforms.",
+      "status": "Framework presented",
+      "impact": "Look for an adopted implementation plan, milestones and budgets.",
+      "url": "https://www.nuc.edu.ng/prof-ribadu-unveils-blueprint-2-0-to-drive-comprehensive-reform-of-nigerian-universities/"
+    },
+    {
+      "id": "dnemis",
+      "date": "2026-07-01",
+      "topic": "Education data",
+      "agency": "FME",
+      "headline": "Digital education management information system launched",
+      "summary": "The ministry launched the digital annual school census and public DNEMIS portal, intended to strengthen school-level data and accountability.",
+      "status": "Platform launched",
+      "impact": "Track school reporting completeness and whether data informs funding.",
+      "url": "https://education.gov.ng/fg-unveils-national-digital-education-platform-to-track-every-school-and-learner-strengthen-planning-transparency-and-accountability/"
+    },
+    {
+      "id": "trcn-accreditation",
+      "date": "2026-06-09",
+      "topic": "Teachers",
+      "agency": "TRCN",
+      "headline": "TRCN begins implementing school accreditation policy linked to examinations",
+      "summary": "TRCN reports beginning implementation of the federal policy linking school accreditation with public examinations.",
+      "status": "Implementation reported",
+      "impact": "Monitor school compliance, teacher preparedness and independent quality assurance.",
+      "url": "https://www.trcn.gov.ng/"
+    },
+    {
+      "id": "nedi-unveiled",
+      "date": "2026-05-14",
+      "topic": "Education data",
+      "agency": "FME",
+      "headline": "National Education Data Infrastructure unveiled",
+      "summary": "NEDI was presented as a foundation for national planning, budgeting and performance data across educational levels.",
+      "status": "Official unveiling",
+      "impact": "Track interoperability, data quality, child privacy and actual usage.",
+      "url": "https://education.gov.ng/fg-unveils-nigerian-education-data-infrastructure-nedi-as-part-of-its-expansive-education-transformation-agenda/"
+    },
+    {
+      "id": "curriculum-2025",
+      "date": "2025-09-03",
+      "topic": "Curriculum",
+      "agency": "NERDC / FME",
+      "headline": "Federal government announces revised national curriculum",
+      "summary": "The curriculum review reduced subject loads and revised emphases across basic and secondary levels. The announcement preceded implementation work in schools.",
+      "status": "Policy announced",
+      "impact": "Follow textbook availability, teacher training and assessments.",
+      "url": "https://nerdc.gov.ng/content_manager/pdf_files/Press%20Release%20On%20New%20FG%20Curriculum.pdf"
+    },
+    {
+      "id": "hope-edu",
+      "date": "2025-03-31",
+      "topic": "Foundational learning",
+      "agency": "World Bank / FME",
+      "headline": "World Bank approves $500 million HOPE-EDU financing",
+      "summary": "The World Bank approved financing to support quality basic education. Approval is not proof of disbursement, utilization or measurable learning improvement.",
+      "status": "Financing approved",
+      "impact": "Watch participating states, disbursements, independent assessments and results.",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/04/02/support-for-human-capital-in-nigeria-world-bank-approves-new-financing-for-education-nutrition-and-economic-resilience"
+    }
+  ],
+  "stakeholders": [
+    {
+      "id": "minister",
+      "person": "Dr. Maruf Tunji Alausa",
+      "role": "Minister of Education",
+      "organization": "Federal Ministry of Education",
+      "scope": "National",
+      "responsibility": "Federal education policy, strategic coordination and oversight of national initiatives.",
+      "question": "Which policy milestones have moved into funded implementation?",
+      "url": "https://education.gov.ng/about-us/",
+      "category": "Decision makers"
+    },
+    {
+      "id": "state-minister",
+      "person": "Prof. Suwaiba Sa’idu Ahmad",
+      "role": "Minister of State for Education",
+      "organization": "Federal Ministry of Education",
+      "scope": "National",
+      "responsibility": "Supports ministry leadership, including education inclusion, stakeholder engagement and programme coordination.",
+      "question": "How are marginalised learners being reached and retained?",
+      "url": "https://education.gov.ng/fme-directors/prof-suwaiba-said-ahmad/",
+      "category": "Decision makers"
+    },
+    {
+      "id": "ubec",
+      "person": "Dr. Aisha Garba",
+      "role": "Executive Secretary",
+      "organization": "Universal Basic Education Commission (UBEC)",
+      "scope": "Basic education",
+      "responsibility": "Coordinates federal intervention for basic education and works with State Universal Basic Education Boards.",
+      "question": "Which state grants have been accessed, spent and evaluated?",
+      "url": "https://ubec.gov.ng/",
+      "category": "Implementation"
+    },
+    {
+      "id": "nerdc",
+      "person": "Prof. Salisu Shehu",
+      "role": "Executive Secretary",
+      "organization": "Nigerian Educational Research and Development Council (NERDC)",
+      "scope": "Curriculum",
+      "responsibility": "Curriculum development and educational research and development.",
+      "question": "Are revised curricula supported with training, materials and assessment?",
+      "url": "https://nerdc.gov.ng/content_manager/eso.html",
+      "category": "Standards & curriculum"
+    },
+    {
+      "id": "nuc",
+      "person": "Prof. Abdullahi Yusufu Ribadu",
+      "role": "Executive Secretary",
+      "organization": "National Universities Commission (NUC)",
+      "scope": "Higher education",
+      "responsibility": "University system regulation, standards and programme accreditation.",
+      "question": "How are university quality and research outcomes measured?",
+      "url": "https://www.nuc.edu.ng/prof-ribadu-unveils-blueprint-2-0-to-drive-comprehensive-reform-of-nigerian-universities/",
+      "category": "Regulators"
+    },
+    {
+      "id": "tetfund",
+      "person": "Arc. Sonny S. T. Echono",
+      "role": "Executive Secretary",
+      "organization": "Tertiary Education Trust Fund (TETFund)",
+      "scope": "Higher education",
+      "responsibility": "Tertiary education intervention funding and institutional project support.",
+      "question": "Which projects are completed, utilized and delivering outcomes?",
+      "url": "https://www.tetfund.gov.ng/about",
+      "category": "Finance & implementation"
+    },
+    {
+      "id": "trcn",
+      "person": "Ronke Soyombo",
+      "role": "Registrar / Chief Executive",
+      "organization": "Teachers Registration Council of Nigeria (TRCN)",
+      "scope": "Teaching profession",
+      "responsibility": "Teacher registration, licensing and professional standards.",
+      "question": "How many teachers meet current professional standards?",
+      "url": "https://www.trcn.gov.ng/our-people",
+      "category": "Regulators"
+    },
+    {
+      "id": "jamb",
+      "person": "Segun Aina",
+      "role": "Registrar / Chief Executive",
+      "organization": "Joint Admissions and Matriculation Board (JAMB)",
+      "scope": "Tertiary access",
+      "responsibility": "Tertiary admissions processes and examinations within its mandate.",
+      "question": "What do admissions and transition patterns reveal about access?",
+      "url": "https://www.jamb.gov.ng/Registrar_CE",
+      "category": "Regulators"
+    },
+    {
+      "id": "fme-data",
+      "person": "Office of Educational Planning, Research and Development",
+      "role": "Education statistics and planning directorate",
+      "organization": "Federal Ministry of Education",
+      "scope": "National",
+      "responsibility": "Annual School Census coordination and education statistics and planning.",
+      "question": "What share of schools reported validated data this year?",
+      "url": "https://education.gov.ng/educational-planning-research-and-development/",
+      "category": "Data & evidence"
+    },
+    {
+      "id": "budget-office",
+      "person": "Budget Office of the Federation",
+      "role": "Federal budget preparation and implementation reporting",
+      "organization": "Federal Government",
+      "scope": "Public finance",
+      "responsibility": "Publishes appropriation and budget implementation documents; not the only source of state education spending.",
+      "question": "What was approved, released and spent by institution and programme?",
+      "url": "https://budgetoffice.gov.ng/",
+      "category": "Finance & implementation"
+    },
+    {
+      "id": "state-subeB",
+      "person": "State SUBEB leadership (varies by state)",
+      "role": "State Universal Basic Education Board",
+      "organization": "State governments",
+      "scope": "State / local",
+      "responsibility": "State-level basic education programme implementation, working with local education authorities and schools.",
+      "question": "How do federal grants and state funds reach specific schools?",
+      "url": "https://ubec.gov.ng/",
+      "category": "Implementation"
+    },
+    {
+      "id": "nbte-office",
+      "person": "National Board for Technical Education",
+      "role": "Technical education regulation and accreditation",
+      "organization": "National Board for Technical Education",
+      "scope": "National",
+      "responsibility": "Technical and vocational programme oversight, standards, and accredited institutions.",
+      "question": "Which programmes in this location have active accreditation?",
+      "url": "https://www.nbte.gov.ng/",
+      "category": "Regulators"
+    },
+    {
+      "id": "ncce-office",
+      "person": "National Commission for Colleges of Education",
+      "role": "Teacher education regulatory institution",
+      "organization": "National Commission for Colleges of Education",
+      "scope": "National",
+      "responsibility": "Quality assurance, curriculum and standards associated with colleges of education.",
+      "question": "Which teacher education programmes meet applicable minimum standards?",
+      "url": "https://ncce.gov.ng/Home/ActsAndFunctions",
+      "category": "Regulators"
+    },
+    {
+      "id": "neco-office",
+      "person": "National Examinations Council",
+      "role": "Nigerian examination administration",
+      "organization": "National Examinations Council",
+      "scope": "National",
+      "responsibility": "Administration of specified national school examinations, including NECO senior secondary and basic education certification examinations.",
+      "question": "Which examinations, candidate categories and assessment methods are covered?",
+      "url": "https://neco.gov.ng/",
+      "category": "Assessment & certification"
+    },
+    {
+      "id": "nelfund-office",
+      "person": "Nigerian Education Loan Fund",
+      "role": "Student financing institution",
+      "organization": "Nigerian Education Loan Fund",
+      "scope": "National",
+      "responsibility": "Administration of eligible education loans, including student support disbursements subject to programme rules.",
+      "question": "What has been applied for, approved, actually disbursed and sustained?",
+      "url": "https://nelf.gov.ng/",
+      "category": "Finance & implementation"
+    },
+    {
+      "id": "state-ministry-office",
+      "person": "State Ministries of Education (vary by state)",
+      "role": "State education policy and administration",
+      "organization": "36 State Ministries of Education / FCT education authorities",
+      "scope": "State / FCT",
+      "responsibility": "State-level administration, school policy execution, personnel and financing responsibilities, varying by state and education level.",
+      "question": "Which state office has authority over this school or programme?",
+      "url": "https://education.gov.ng/",
+      "category": "Implementation"
+    },
+    {
+      "id": "local-education-office",
+      "person": "Local Government Education Authorities",
+      "role": "Local basic education administration",
+      "organization": "Local Government Education Authorities",
+      "scope": "Local",
+      "responsibility": "School support, supervision and implementation through applicable state/local arrangements.",
+      "question": "Who supervises school attendance, facilities and basic education delivery in this LGA?",
+      "url": "https://ubec.gov.ng/",
+      "category": "Implementation"
+    },
+    {
+      "id": "headteacher-office",
+      "person": "Public school leaders and management committees",
+      "role": "School-level governance and instructional leadership",
+      "organization": "Individual schools",
+      "scope": "School",
+      "responsibility": "School planning, teaching support, safeguarding, reporting, management and appropriate family engagement.",
+      "question": "What evidence does this school retain on attendance, teaching conditions and improvement?",
+      "url": "https://emis.education.gov.ng/",
+      "category": "Implementation"
+    },
+    {
+      "id": "nerdc-curriculum-unit",
+      "person": "NERDC official curriculum resources",
+      "role": "Curriculum framework and resource publication",
+      "organization": "Nigerian Educational Research and Development Council",
+      "scope": "National",
+      "responsibility": "Official curriculum framework development and publication of implementation-related educational materials.",
+      "question": "Which curriculum version and subject framework applies to this school year?",
+      "url": "https://nerdc.gov.ng/",
+      "category": "Standards & curriculum"
+    },
+    {
+      "id": "budget-execution",
+      "person": "Federal budget implementation reporting",
+      "role": "Federal fiscal performance records",
+      "organization": "Budget Office of the Federation",
+      "scope": "National",
+      "responsibility": "Quarterly fiscal implementation reporting relevant to federal education vote execution.",
+      "question": "Which actual releases and expenditures support the project figure?",
+      "url": "https://budgetoffice.gov.ng/index.php/resources/internal-resources/reports/quarterly-budget-implementation",
+      "category": "Finance & implementation"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1882",
+      "title": "Colonial education ordinance",
+      "body": "One of the early colonial measures for regulating formal schooling in the Lagos/Gold Coast context. It did not mark the beginning of all education in Nigeria: Indigenous and Islamic systems predate it.",
+      "url": "https://www.cambridge.org/core/journals/journal-of-african-law/article/international-human-rights-obligations-and-the-influence-of-economic-principles-on-education-delivery-in-nigeria-as-an-e9-country/C689C09F888923F4F4E78BC23BF8BF48"
+    },
+    {
+      "year": "1955",
+      "title": "Western Region expands free primary education",
+      "body": "The Western Region introduced free primary education, an important regional turning point. Other regions followed different paths and timelines.",
+      "url": "https://documents1.worldbank.org/curated/en/123131468195000690/pdf/ACS14245-WP-P153070-Box394836B-PUBLIC-Nigeria-Governance-and-Finance-Analysis-Dec30.pdf"
+    },
+    {
+      "year": "1969",
+      "title": "National Curriculum Conference",
+      "body": "Helped define the goals of a national system and influenced the later National Policy on Education.",
+      "url": "https://education.gov.ng/wp-content/uploads/2020/06/NATIONAL-POLICY-ON-EDUCATION.pdf"
+    },
+    {
+      "year": "1976",
+      "title": "Universal Primary Education expansion",
+      "body": "National UPE programme sought wider primary-school access, drawing lessons from earlier regional experiences.",
+      "url": "https://ubec.gov.ng/wp-content/uploads/2024/2022-NPA-REPORT.pdf"
+    },
+    {
+      "year": "1977",
+      "title": "First National Policy on Education",
+      "body": "Established a major national education policy framework, later revised repeatedly.",
+      "url": "https://education.gov.ng/wp-content/uploads/2020/06/NATIONAL-POLICY-ON-EDUCATION.pdf"
+    },
+    {
+      "year": "1999",
+      "title": "Universal Basic Education programme launched",
+      "body": "UBE policy sought universal access to basic education, extending beyond the earlier UPE approach.",
+      "url": "https://documents1.worldbank.org/curated/en/123131468195000690/pdf/ACS14245-WP-P153070-Box394836B-PUBLIC-Nigeria-Governance-and-Finance-Analysis-Dec30.pdf"
+    },
+    {
+      "year": "2004",
+      "title": "Compulsory, Free Universal Basic Education Act",
+      "body": "Established the statutory foundation for compulsory free basic education and UBEC's relationship with states and local governments.",
+      "url": "https://ubec.gov.ng/wp-content/uploads/2021/09/NGA87623-UBE-ACT-2004.pdf"
+    },
+    {
+      "year": "2025",
+      "title": "Curriculum review and HOPE-EDU financing",
+      "body": "The federal government announced revisions to curriculum content, while the World Bank approved additional basic-education financing.",
+      "url": "https://nerdc.gov.ng/content_manager/pdf_files/Press%20Release%20On%20New%20FG%20Curriculum.pdf"
+    },
+    {
+      "year": "2026",
+      "title": "Education data and EdTech strategy",
+      "body": "NEDI and DNEMIS announcements and the National EdTech Strategy reflect a stronger policy emphasis on education data and digital infrastructure. Implementation outcomes still need assessment.",
+      "url": "https://fmino.gov.ng/fg-unveils-national-edtech-strategy-launches-askfme-ai-chatbot-advances-unified-education-data-system/"
+    }
+  ],
+  "policies": [
+    {
+      "id": "p-nesri",
+      "title": "Nigeria Education Sector Renewal Initiative",
+      "agency": "FME",
+      "since": "2026",
+      "area": "Cross-sector",
+      "stage": "Reform agenda published",
+      "why": "Six-pillar strategic reform framework covering foundational needs, access, skills, data and quality.",
+      "whatNext": "Find implementation plans, agency owners, annual milestones, costs and independently measured outcomes.",
+      "url": "https://nesri.education.gov.ng/pillars"
+    },
+    {
+      "id": "p-hope",
+      "title": "HOPE-EDU basic education financing",
+      "agency": "World Bank / FME",
+      "since": "2025",
+      "area": "Foundational learning",
+      "stage": "Financing approved",
+      "why": "$500 million financing approved to support basic education improvements.",
+      "whatNext": "Verify actual disbursements, state projects, classroom reach and literacy gains.",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/04/02/support-for-human-capital-in-nigeria-world-bank-approves-new-financing-for-education-nutrition-and-economic-resilience"
+    },
+    {
+      "id": "p-cur",
+      "title": "Revised national curriculum",
+      "agency": "NERDC / FME",
+      "since": "2025",
+      "area": "Curriculum",
+      "stage": "Announced; adoption varies",
+      "why": "Reduces subject overload and revises learning emphases.",
+      "whatNext": "Track teacher training, textbooks, alignment with examinations and learning evidence by state.",
+      "url": "https://nerdc.gov.ng/content_manager/pdf_files/Press%20Release%20On%20New%20FG%20Curriculum.pdf"
+    },
+    {
+      "id": "p-dnemis",
+      "title": "NEDI / DNEMIS education data infrastructure",
+      "agency": "FME",
+      "since": "2026",
+      "area": "Education data",
+      "stage": "Platform launched",
+      "why": "Integrates annual school census and public education statistics infrastructure.",
+      "whatNext": "Verify reporting completeness, data validity and privacy safeguards.",
+      "url": "https://emis.education.gov.ng/"
+    },
+    {
+      "id": "p-edtech",
+      "title": "National EdTech Strategy 2025–2030",
+      "agency": "FME",
+      "since": "2026",
+      "area": "Digital learning",
+      "stage": "Strategy unveiled",
+      "why": "Sets a national direction for power, connectivity, devices, teacher competency, data governance and AI.",
+      "whatNext": "Verify funded implementation, offline access, teacher adoption and learner outcomes.",
+      "url": "https://edutech.education.gov.ng/strategy-hub"
+    }
+  ],
+  "funds": [
+    {
+      "id": "f-hope",
+      "title": "HOPE-EDU financing",
+      "agency": "World Bank / participating authorities",
+      "period": "Approved March 2025",
+      "amount": "US$500 million approved financing",
+      "stages": [
+        {
+          "step": "Budget / approval",
+          "value": "US$500 million",
+          "note": "Financing approved by World Bank"
+        },
+        {
+          "step": "Funds released",
+          "value": null,
+          "note": "Disbursement figure not verified in this prototype"
+        },
+        {
+          "step": "Funds utilized",
+          "value": null,
+          "note": "Verified programme expenditure not extracted"
+        },
+        {
+          "step": "Outputs delivered",
+          "value": null,
+          "note": "Independent delivery evidence not entered"
+        },
+        {
+          "step": "Learning outcomes",
+          "value": null,
+          "note": "Causal learning results not entered"
+        }
+      ],
+      "url": "https://www.worldbank.org/en/news/press-release/2025/04/02/support-for-human-capital-in-nigeria-world-bank-approves-new-financing-for-education-nutrition-and-economic-resilience"
+    },
+    {
+      "id": "f-2026",
+      "title": "Federal education spending — 2026",
+      "agency": "Budget Office / relevant ministries",
+      "period": "2026 fiscal year",
+      "amount": "Detailed extraction pending",
+      "stages": [
+        {
+          "step": "Budget / approval",
+          "value": "Appropriation document available",
+          "note": "Agency-specific approved education budget lines have not been entered"
+        },
+        {
+          "step": "Funds released",
+          "value": null,
+          "note": "Releases must be extracted from implementation reports"
+        },
+        {
+          "step": "Funds utilized",
+          "value": null,
+          "note": "Cash utilization must be separated from approval"
+        },
+        {
+          "step": "Outputs delivered",
+          "value": null,
+          "note": "Match expenditure to verified projects and services"
+        },
+        {
+          "step": "Learning outcomes",
+          "value": null,
+          "note": "Link spending to validated learning measures with careful attribution"
+        }
+      ],
+      "url": "https://budgetoffice.gov.ng/index.php/resources/internal-resources/reports/quarterly-budget-implementation/2026-budget-implementation-reports"
+    },
+    {
+      "id": "f-ubec",
+      "title": "UBEC federal-state intervention grants",
+      "agency": "UBEC / state SUBEBs",
+      "period": "Ongoing programme",
+      "amount": "State-specific figures pending",
+      "stages": [
+        {
+          "step": "Budget / approval",
+          "value": "Statutory mechanism",
+          "note": "The UBE Act establishes the grant mechanism; no specific state amount is asserted here"
+        },
+        {
+          "step": "Funds released",
+          "value": null,
+          "note": "Requires UBEC and state records"
+        },
+        {
+          "step": "Funds utilized",
+          "value": null,
+          "note": "Requires project and financial records"
+        },
+        {
+          "step": "Outputs delivered",
+          "value": null,
+          "note": "Requires facility and classroom verification"
+        },
+        {
+          "step": "Learning outcomes",
+          "value": null,
+          "note": "Requires appropriate learning assessments"
+        }
+      ],
+      "url": "https://ubec.gov.ng/wp-content/uploads/2021/09/NGA87623-UBE-ACT-2004.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Federal Ministry of Education",
+      "type": "Policy and official announcements",
+      "url": "https://education.gov.ng/"
+    },
+    {
+      "name": "DNEMIS / Annual School Census",
+      "type": "Administrative education data",
+      "url": "https://emis.education.gov.ng/"
+    },
+    {
+      "name": "Budget Office of the Federation",
+      "type": "Appropriations and spending reports",
+      "url": "https://budgetoffice.gov.ng/"
+    },
+    {
+      "name": "Universal Basic Education Commission",
+      "type": "Basic-education programmes and grants",
+      "url": "https://ubec.gov.ng/"
+    },
+    {
+      "name": "NERDC",
+      "type": "Curriculum and learning standards",
+      "url": "https://nerdc.gov.ng/"
+    },
+    {
+      "name": "National Universities Commission",
+      "type": "University standards and policy",
+      "url": "https://www.nuc.edu.ng/"
+    },
+    {
+      "name": "TETFund",
+      "type": "Tertiary intervention financing",
+      "url": "https://www.tetfund.gov.ng/"
+    },
+    {
+      "name": "TRCN",
+      "type": "Teacher registration and standards",
+      "url": "https://www.trcn.gov.ng/"
+    },
+    {
+      "name": "World Bank Nigeria education",
+      "type": "Financing and programme evaluation",
+      "url": "https://www.worldbank.org/en/country/nigeria"
+    },
+    {
+      "name": "UNICEF Nigeria",
+      "type": "Children, education and learning evidence",
+      "url": "https://www.unicef.org/nigeria/education"
+    },
+    {
+      "name": "Nigeria EdTech Strategy Hub",
+      "type": "Digital education policy",
+      "url": "https://edutech.education.gov.ng/"
+    },
+    {
+      "name": "National Commission for Colleges of Education",
+      "type": "Teacher education and accreditation",
+      "url": "https://ncce.gov.ng/Home/ActsAndFunctions"
+    },
+    {
+      "name": "National Board for Technical Education",
+      "type": "Technical education regulation and accreditation",
+      "url": "https://www.nbte.gov.ng/"
+    },
+    {
+      "name": "National Examinations Council",
+      "type": "School examinations and certification",
+      "url": "https://neco.gov.ng/"
+    },
+    {
+      "name": "Nigerian Education Loan Fund",
+      "type": "Tertiary student loans",
+      "url": "https://nelf.gov.ng/"
+    },
+    {
+      "name": "World Bank Global Education Evidence Advisory Panel",
+      "type": "Impact evidence and cost-effectiveness",
+      "url": "https://www.worldbank.org/en/brief/2025/10/30/global-education-evidence-advisory-panel"
+    }
+  ]
+}

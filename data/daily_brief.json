@@ -1,0 +1,16 @@
+{
+  "edition": "daily-discovery-v2",
+  "generated_utc": null,
+  "generated_date_wat": "2026-11-23",
+  "target_time": "07:00 Africa/Lagos (WAT, UTC+1)",
+  "scheduled_daily": false,
+  "last_attempt_utc": null,
+  "last_successful_check_utc": null,
+  "feed_health": "awaiting deployment",
+  "coverage_note": "Source updates will begin after you publish the project and enable the workflow. Three federal RSS sources only; this is not full national coverage.",
+  "sources_succeeded": [],
+  "sources_failed": [],
+  "recent_unreviewed_discoveries": [],
+  "discovery_count_recent": 0,
+  "editorial_status": "No background data collection runs inside the downloadable offline HTML."
+}

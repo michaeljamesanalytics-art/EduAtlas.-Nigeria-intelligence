@@ -1,0 +1,37 @@
+name: Nigeria education daily discovery
+on:
+  schedule:
+    # GitHub Actions cron uses UTC. Target: fresh by 07:00 WAT (06:00 UTC).
+    # Two earlier attempts allow time for processing and delayed feeds.
+    - cron: '15 5 * * *'  # 06:15 WAT
+    - cron: '45 5 * * *'  # 06:45 WAT, second check
+    - cron: '0 6 * * *'   # 07:00 WAT, final best-effort check
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: eduatlas-daily-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check official feeds, record failures explicitly
+        run: |
+          python scripts/update_feeds.py || echo "All feeds unavailable: this check will show degraded status"
+      - name: Build evidence-safe daily status
+        run: python scripts/build_daily_brief.py
+      - name: Publish feed, timestamps and status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auto_updates.json data/feed_status.json data/daily_brief.json data/daily_brief.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Update education discovery and 7am WAT status"
+            git pull --rebase
+            git push
+          fi
