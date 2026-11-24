@@ -1,0 +1,20 @@
+{
+  "last_attempt_utc": "2026-11-24T15:47:41.052818+00:00",
+  "sources_ok": [
+    {
+      "source": "FME",
+      "entries": 10
+    },
+    {
+      "source": "NUC",
+      "entries": 10
+    }
+  ],
+  "failures": [
+    {
+      "source": "UBEC",
+      "error": "syntax error: line 1, column 0"
+    }
+  ],
+  "number_of_discoveries": 20
+}
