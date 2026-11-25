@@ -1,0 +1,44 @@
+name: EduAtlas browser rendering test
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify JavaScript syntax
+        run: |
+          node --check app.js
+          node --check data/curated.js
+          node --check data/academy.js
+          node --check data/daily_brief.js
+      - name: Render the real app in headless Chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+          google-chrome --version
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/eduatlas-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" || true' EXIT
+          for i in $(seq 1 20); do
+            if curl -fsS http://127.0.0.1:8765/ >/dev/null; then break; fi
+            sleep 1
+          done
+          for route in "" "#learning" "#daily" "#power"; do
+            label=${route#\#}
+            if [ -z "$label" ]; then label=home; fi
+            echo "Testing route: $label"
+            timeout 50s google-chrome --headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu --no-first-run --user-data-dir="/tmp/eduatlas-chrome-$label" --virtual-time-budget=2500 --dump-dom "http://127.0.0.1:8765/$route" >"/tmp/eduatlas-$label.html" 2>"/tmp/eduatlas-$label.stderr"
+            if grep -q "Loading your education intelligence" "/tmp/eduatlas-$label.html"; then
+              echo "ERROR: Loading screen not replaced in $label"
+              head -100 "/tmp/eduatlas-$label.stderr"
+              exit 1
+            fi
+            grep -q "Research + learning atlas" "/tmp/eduatlas-$label.html" || { echo "ERROR: Application shell missing in $label"; exit 1; }
+            echo "PASS: app rendered route $label"
+          done
