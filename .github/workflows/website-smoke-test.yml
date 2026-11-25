@@ -1,0 +1,43 @@
+name: EduAtlas public site reachability test
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check DNS and HTTPS for GitHub Pages
+        shell: bash
+        run: |
+          set -uo pipefail
+          HOST="michaeljamesanalytics-art.github.io"
+          BASE="https://$HOST/EduAtlas.-Nigeria-intelligence/"
+          echo "Checking published website: $BASE"
+          echo "DNS:"
+          getent ahostsv4 "$HOST" || true
+          echo "HTTP responses:"
+          failed=0
+          for path in "" "health.html" "app.js" "styles.css" "data/curated.js" "data/academy.js" "data/daily_brief.js"; do
+            url="${BASE}${path}"
+            echo "---- $url"
+            status=$(curl --location --silent --show-error --connect-timeout 10 --max-time 30 --retry 2 --retry-delay 4 --output "/tmp/eduatlas-check-body" --write-out "%{http_code}" "$url") || status="NETWORK_FAILURE"
+            echo "Status: $status"
+            if [ "$status" != "200" ]; then
+              failed=1
+              head -c 150 /tmp/eduatlas-check-body || true
+              echo
+            else
+              if [ -z "$path" ]; then
+                grep -q 'EduAtlas Nigeria' /tmp/eduatlas-check-body || { echo "Home page missing expected heading"; failed=1; }
+              elif [ "$path" = "health.html" ]; then
+                grep -q 'Website Check' /tmp/eduatlas-check-body || { echo "Health check page missing expected content"; failed=1; }
+              fi
+              echo "Bytes: $(wc -c </tmp/eduatlas-check-body)"
+            fi
+          done
+          echo "Site smoke test failure flag: $failed"
+          exit "$failed"
