@@ -1,11 +1,11 @@
 {
   "edition": "daily-discovery-v2",
-  "generated_utc": "2026-11-26T15:49:10.816605+00:00",
+  "generated_utc": "2026-11-26T16:01:58.062153+00:00",
   "generated_date_wat": "2026-11-26",
   "target_time": "07:00 Africa/Lagos (WAT, UTC+1)",
   "scheduled_daily": true,
-  "last_attempt_utc": "2026-11-26T15:49:10.732527+00:00",
-  "last_successful_check_utc": "2026-11-26T15:49:10.732527+00:00",
+  "last_attempt_utc": "2026-11-26T16:01:58.005383+00:00",
+  "last_successful_check_utc": "2026-11-26T16:01:58.005383+00:00",
   "feed_health": "partial",
   "coverage_note": "Three selected federal agency RSS sources only; not every Nigerian education institution or state. Feed collection is discovery, not editorial verification.",
   "sources_succeeded": [
